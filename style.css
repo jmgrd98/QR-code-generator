@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color: lightblue;
+    background: linear-gradient(90deg, #1163c6, #5fb8e9);
     padding-top: 100px;
 }
 
 #logo{
-    width: 200px;
+    width: 300px;
 }
 
 main{
@@ -44,13 +44,21 @@ input{
 
 button{
     padding: 15px;
-    background-color: lightblue;
-    color: rgb(0, 0, 0);
+    background-color: #5fb8e9;
+    color: #626161;
+    text-transform: uppercase;
     border: none;
     border-radius: 5px;
-    font-weight: bolder;
-    box-shadow: 1px 1px 5px 2px rgb(78, 95, 114);
+    font-weight: 700;
+    box-shadow: 1px 1px 5px 2px #626161;
     cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: .5s;
+}
+
+button:hover{
+    background-color: #626161;
+    color: #5fb8e9;
 }
 
 .form{

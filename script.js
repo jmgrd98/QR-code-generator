@@ -3,6 +3,7 @@
 const wrapper = document.querySelector("main")
 const qrInput = wrapper.querySelector(".form input")
 const generateBtn = wrapper.querySelector(".form button")
+const downloadBtn = wrapper.querySelector(".form button")
 const qrCode = document.querySelector(".qr-code")
 const qrImg = document.querySelector("#qr-code")
 
@@ -21,3 +22,12 @@ generateBtn.addEventListener("click", () => {
     })
     qrCode.classList.add("active");
 })
+
+downloadBtn.addEventListener("click", e => {
+    e.preventDefault();
+    fetchFile(qrValue);
+})
+
+function fetchFile(qrValue){
+    fetch(qrValue).then(res => res.blob().then(file ))
+}
