@@ -1,8 +1,14 @@
+// Declarando as variáveis
+
 const wrapper = document.querySelector("main")
 const qrInput = wrapper.querySelector(".form input")
 const generateBtn = wrapper.querySelector(".form button")
 const qrCode = document.querySelector(".qr-code")
 const qrImg = document.querySelector("#qr-code")
+
+// Função que chama a API ao clicar
+// no botão e insere o QR Code na tela
+// com o valor do link inserido.
 
 generateBtn.addEventListener("click", () => {
     let qrValue = qrInput.value

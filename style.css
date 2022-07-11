@@ -12,6 +12,10 @@ body{
     padding-top: 100px;
 }
 
+#logo{
+    width: 200px;
+}
+
 main{
     background-color: white;
     width: 50%;
@@ -23,6 +27,14 @@ main{
     align-items: center;
     padding: 20px;
     gap: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
 
 input{
