@@ -8,7 +8,6 @@
 }
 
 body{
-    background: linear-gradient(90deg, #1163c6, #5fb8e9);
     display: flex;
 }
 
@@ -22,7 +21,8 @@ body{
 }
 
 main{
-    width: 50vw;
+    background: linear-gradient(90deg, #1163c6, #5fb8e9);
+    width: 70vw;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -36,7 +36,7 @@ main{
 aside{
     background-color: white;
     height: 100vh;
-    width: 50vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     gap: 25px;
