@@ -17,7 +17,9 @@ body{
 }
 
 #logo2{
+    align-self: flex-start;
     width: 75%;
+    max-width: 500px;;
 }
 
 main{
@@ -40,6 +42,7 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding: 10px;
 }
 
 #texto{
@@ -48,12 +51,15 @@ aside{
     gap: 20px;
 }
 
+#texto-main{
+    line-height: 25px;
+}
+
 h1{
     font-size: 1.7rem;
     text-align: center;
     color: #1163c6;
     font-weight: bolder;
-    text-shadow: #5fb8e9 1px 2px 3px ;
 }
 
 aside p{
@@ -65,7 +71,8 @@ aside p{
 main p{
     color: white;
     font-weight: 700;
-    margin: 0px 10px;
+    margin: 0px 50px;
+    align-self: flex-start;
 }
 
 input{
