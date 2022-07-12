@@ -9,7 +9,7 @@
 
 body{
     background: linear-gradient(90deg, #1163c6, #5fb8e9);
-    padding-top: 100px;
+    display: flex;
 }
 
 #logo{
@@ -18,37 +18,56 @@ body{
 
 main{
     background-color: white;
-    width: 50%;
+    width: 50vw;
     height: 50%;
     margin: auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 0;
     gap: 20px;
     box-shadow: 2px 1px 20px black;
 }
 
+aside{
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 h1{
+    font-size: 1.7rem;
     text-align: center;
     color: #1163c6;
     font-weight: bolder;
-    text-shadow: #5fb8e9 1px 2px 5px ;
+    text-shadow: #5fb8e9 1px 2px 3px ;
 }
 
 p{
     text-align: center;
+    font-weight: bold;
+    color: #626161;
 }
 
 input{
+    align-self: center;
     padding: 5px;
-    width: 100%;
+    width: 50%;
     border-radius: 50px;
     border: 3px solid #1163c6;
+    margin: 20px;
 }
 
 button{
+    align-self: center;
+    width: 50%;
     padding: 15px;
     background-color: #1163c6;
     color: white;
@@ -75,12 +94,13 @@ button:hover{
 }
 
 #qr-code{
-    width: 100%;
+    align-self: center;
 }
 
 .qr-code{
-    width: 200px;
     display: none;
+    align-self: center;
+    text-align: center;
 }
 
 .active{

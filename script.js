@@ -1,6 +1,6 @@
 // Declarando as variáveis
 
-const wrapper = document.querySelector("main")
+const wrapper = document.querySelector("aside")
 const qrInput = wrapper.querySelector(".form input")
 const generateBtn = wrapper.querySelector(".form button")
 const downloadBtn = wrapper.querySelector(".form button")
