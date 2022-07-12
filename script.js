@@ -29,5 +29,7 @@ downloadBtn.addEventListener("click", e => {
 })
 
 function fetchFile(qrValue){
-    fetch(qrValue).then(res => res.blob().then(file ))
+    fetch(qrValue).then(res => res.blob()).then(qrValue => {
+        console.log(qrValue);
+    })
 }
