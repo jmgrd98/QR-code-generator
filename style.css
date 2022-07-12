@@ -134,4 +134,12 @@ button:hover{
         padding: 0;
         margin: 0;
     }
+
+    main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
 }
