@@ -114,6 +114,7 @@ button:hover{
 
 #qr-code{
     align-self: center;
+    max-width: 75%;
 }
 
 .qr-code{
