@@ -13,15 +13,18 @@ body{
 }
 
 #logo{
-    width: 100%;
+    width: 75%;
+    align-self: center;
+}
+
+#logo2{
+    width: 75%;
 }
 
 main{
-    background-color: white;
     width: 50vw;
-    height: 50%;
+    height: 100vh;
     margin: auto;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +37,9 @@ aside{
     background-color: white;
     height: 100vh;
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #texto{
@@ -50,10 +56,16 @@ h1{
     text-shadow: #5fb8e9 1px 2px 3px ;
 }
 
-p{
+aside p{
     text-align: center;
     font-weight: bold;
     color: #626161;
+}
+
+main p{
+    color: white;
+    font-weight: 700;
+    margin: 0px 10px;
 }
 
 input{
