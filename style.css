@@ -80,6 +80,17 @@ input{
     border-radius: 50px;
     border: 3px solid #1163c6;
     margin: 20px;
+    transition-property: border;
+    transition-duration: .3s;
+}
+
+input::placeholder{
+    color: #1163c6;
+}
+
+input:hover{
+    border: 5px solid#1163c6;
+    
 }
 
 button{
