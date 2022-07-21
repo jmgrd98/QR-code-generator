@@ -122,6 +122,7 @@ button:hover{
 }
 
 #qr-code{
+    margin-left: 20px;
     align-self: center;
     max-width: 75%;
 }

@@ -23,6 +23,8 @@ generateBtn.addEventListener("click", () => {
     qrCode.classList.add("active");
 })
 
+// Botão de download
+
 downloadBtn.addEventListener("click", e => {
     e.preventDefault();
     fetchFile(qrValue);
