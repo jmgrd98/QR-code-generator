@@ -25,13 +25,15 @@ generateBtn.addEventListener("click", () => {
 
 // Botão de download
 
-downloadBtn.addEventListener("click", e => {
-    e.preventDefault();
-    fetchFile(qrValue);
+downloadBtn.addEventListener("click", () => {
+    let qrValue = qrInput.value;
+    let downloadLink = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`;
+    params = {
+        data: `${qrValue}`,
+        size: '150x150',
+        margin: 0,
+        download: 1
+    };
+    window.location.href = downloadLink + params
 })
 
-function fetchFile(qrValue){
-    fetch(qrValue).then(res => res.blob()).then(qrValue => {
-        console.log(qrValue);
-    })
-}
